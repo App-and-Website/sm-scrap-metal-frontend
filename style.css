@@ -333,6 +333,15 @@ grid-template-columns: 50% 50%;
     background: #000;
     padding: 5px 0;
 }
+.main-menu .navigation>li>a {
+    font-size: 18px;
+}
+.main-menu .navigation>li {
+    margin-right: 40px;
+}
+.main-menu .navigation>li:before {
+    right: -18px;
+}
 .main-header .header-upper .contact-info .icon {
     background-color: #119b49;
 }
@@ -395,9 +404,7 @@ grid-template-columns: 50% 50%;
 .small_cta_home p{
  color: #fff;
 }
-.what_we_buy h4{
-     color: #61b044;
-}
+
 .what_we_buy .read_more_serv a{
     color: #61b044;
 }
@@ -447,7 +454,16 @@ background: #c7d3c3;
 .custom-marquee-item span {
   color: #61b044;
 }
-
+.freequote_head{
+    background: #54a338;
+    margin-left: 25px;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+.freequote_head a{
+    color: #fff;
+    font-weight: 600;
+}
 @keyframes custom-slide {
   0% {
     transform: translateX(0%);

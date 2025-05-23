@@ -94,7 +94,7 @@ body {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     background: rgb(255, 255, 255);
-    font-family: cerebri-regular;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
