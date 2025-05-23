@@ -419,6 +419,49 @@ grid-template-columns: 50% 50%;
 .ctaseccol p{
     color: #ddd;
 }
+.slide_sec_tp{
+background: #c7d3c3;
+}
+
+.custom-marquee-container {
+  overflow: hidden;
+  padding: 16px 0;
+}
+
+.custom-marquee {
+  display: flex;
+  gap: 1.5rem;
+  animation: custom-slide 60s linear infinite;
+  white-space: nowrap;
+  width: max-content;
+}
+.custom-marquee-item {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  background: #000;
+  padding: 8px 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.custom-marquee-item span {
+  color: #61b044;
+}
+
+@keyframes custom-slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.main-menu .navigation>li>a {
+    text-transform: capitalize;
+}
+.header-top .social-links li {
+    margin-right: 12px;
+}
 @media only screen and (max-width: 1200px) {
 .left-column2{
     display: flex;
